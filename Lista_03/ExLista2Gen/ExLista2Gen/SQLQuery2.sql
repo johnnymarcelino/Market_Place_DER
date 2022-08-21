@@ -1,0 +1,16 @@
+USE Ecommerce;
+
+INSERT INTO tb_usuarios
+VALUES 
+( 'JOHNNY', 'JOHNNY_GABRIEL@EMAIL.COM', '123456', '546456'),
+('CAIO', 'CAIO_MENDES@EMAIL.COM', '654321', '7654321'),
+('JOAO', 'JOAO_NUNENS@EMAIL.COM', '246810', '7654321');
+
+SELECT * FROM tb_usuarios 
+WHERE Email LIKE '%i%';
+
+INSERT INTO tb_produtos	
+VALUES
+('Celular')
+
+INSERT INTO tb
